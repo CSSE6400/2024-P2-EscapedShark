@@ -19,7 +19,7 @@ def create_app(config_overrides=None):
        db.session.commit() 
  
     # Register the blueprints 
-    from .views.routes import api 
+    from .views.routes1 import api 
     app.register_blueprint(api) 
  
     return app
